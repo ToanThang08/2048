@@ -46,4 +46,15 @@ public class TileBoard : MonoBehaviour
         {
         }
     }
+
+    private void MoveTiles(Vector2Int direction)
+    {
+        for (int x= 0; x < grid.width; x++)
+        {
+            for (int y = 0; y < grid.height; y++)
+            {
+
+            }
+        }
+    }
 }
